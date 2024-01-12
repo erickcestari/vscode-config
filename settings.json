@@ -40,7 +40,7 @@
     "FIG_NEW_SESSION": "1"
   },
   "workbench.editor.labelFormat": "short",
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
