@@ -64,7 +64,6 @@
   "workbench.editor.empty.hint": "hidden",
   "window.zoomLevel": -1,
   "editor.inlayHints.enabled": "offUnlessPressed",
-  "workbench.colorTheme": "zhxo'cr",
   "workbench.iconTheme": "symbols",
   "workbench.layoutControl.enabled": false,
   "window.commandCenter": false,
@@ -74,5 +73,6 @@
     ".editor-actions": "display: none !important",
     ".monaco-editor .suggest-widget": "border-radius: 6px; border: 1px solid rgba(255,255,255,0.04); opacity: 0.97; backdrop-filter: blur(15px);",
     "body > div.file-icons-enabled.enable-motion.monaco-workbench.windows.chromium.nopanel.noauxiliarybar.no-activity-bar.sidebar-right.vs-dark.mvllow-rose-pine-themes-rose-pine-color-theme-json > div.monaco-grid-view > div > div > div.monaco-scrollable-element > div.split-view-container > div:nth-child(3) > div > div > div.monaco-scrollable-element > div.split-view-container > div.split-view-view.visible > div > div > div.monaco-scrollable-element > div.split-view-container > div.split-view-view.visible > div > div > div.sash-container > div:nth-child(2)": "border-left: 1px solid rgba(255,255,255,0.04)"
-  }
+  },
+  "workbench.colorTheme": "zhxo'red"
 }
