@@ -62,10 +62,4 @@
   },
   "github.copilot.editor.enableAutoCompletions": false,
   "workbench.colorTheme": "Vesper",
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  },
 }
