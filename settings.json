@@ -1,9 +1,17 @@
 {
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "workbench.startupEditor": "newUntitledFile",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
+  "rust-analyzer.linkedProjects": [
+    "modules/ldk/ldk_lib/Cargo.toml",
+    "Cargo.toml",
+    "fuzz/Cargo.toml",
+    "protocols/fuzz-tests/Cargo.toml",
+  ],
+  "chat.disableAIFeatures": true,
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
   },
+  "files.insertFinalNewline": false,
   "editor.fontSize": 14,
   "extensions.ignoreRecommendations": true,
   "editor.rulers": [
@@ -12,8 +20,8 @@
   ],
   "window.title": "${activeEditorShort}${separator}",
   "editor.scrollbar.horizontal": "hidden",
-  "editor.fontFamily": "JetBrains Mono",
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontFamily": "CaskaydiaMono Nerd Font",
+  "terminal.integrated.fontFamily": "CaskaydiaMono Nerd Font",
   "window.titleBarStyle": "custom",
   "workbench.activityBar.location": "hidden",
   "workbench.statusBar.visible": false,
@@ -24,16 +32,13 @@
   "editor.suggestSelection": "first",
   "explorer.confirmDelete": false,
   "terminal.integrated.showExitAlert": false,
-  "[prisma]": {
-    "editor.formatOnSave": true
-  },
   "typescript.suggest.autoImports": true,
   "workbench.editor.labelFormat": "short",
   "editor.fontLigatures": false,
   "explorer.compactFolders": false,
   "editor.accessibilitySupport": "off",
   "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 15,
   "editor.tabSize": 2,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "gitlens.codeLens.enabled": false,
@@ -57,9 +62,12 @@
   "workbench.iconTheme": "symbols",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.colorTheme": "Solarized Light+",
+  "supermaven.otherWarning": false,
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true
   },
-  "github.copilot.editor.enableAutoCompletions": false,
-  "workbench.colorTheme": "Vesper",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
 }
