@@ -5,7 +5,7 @@
     "modules/ldk/ldk_lib/Cargo.toml",
     "Cargo.toml",
     "fuzz/Cargo.toml",
-    "protocols/fuzz-tests/Cargo.toml",
+    "protocols/fuzz/Cargo.toml",
   ],
   "chat.disableAIFeatures": true,
   "[rust]": {
@@ -18,6 +18,7 @@
     80,
     120
   ],
+  "editor.colorDecorators": false,
   "window.title": "${activeEditorShort}${separator}",
   "editor.scrollbar.horizontal": "hidden",
   "editor.fontFamily": "CaskaydiaMono Nerd Font",
@@ -62,12 +63,25 @@
   "workbench.iconTheme": "symbols",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.colorTheme": "Solarized Light+",
-  "supermaven.otherWarning": false,
   "files.watcherExclude": {
     "**/.bloop": true,
     "**/.metals": true
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.colorTheme": "Solarized Light+",
+  "claudeCode.preferredLocation": "panel",
+  "terminal.integrated.suggest.enabled": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
+  "update.showReleaseNotes": false,
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "editor.lineNumbers": "on",
+  "breadcrumbs.enabled": true,
+  "editor.stickyScroll.enabled": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
 }
